@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  background-color: #6af2f2;
+  color: #020202;
+  margin: 3%;
+}
+.contact-info{
+  background-color: #8dfbfb;
+  display: flex;
+  margin: 1%;
+  gap:2.5%;
+  white-space: nowrap;
+}
+.container {
+  background: #f9f7f7;
+} 
+
+h1{
+color: #8d2df3;
+text-decoration: underline;
+margin-bottom: 2%;
+text-align: center;
+} 
+h2, h3 {
+  color: #f357cc;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  text-align: center;
+  text-align: center;
+}
+p{
+  color: #7c07f8;
+  text-decoration: underline;
+  font-size: 1rem;
+  text-align: center;
+}
+.item1{
+  background-color: #f0c2f8;
+  line-height: 1.5rem;
+}
+.education{
+  background-color: red;
+}
+a {
+  color: #2980b9;
+  margin:.5%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
+
+
+
+
+@media (min-width: 768px){
+   
+}
