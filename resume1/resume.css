@@ -10,6 +10,10 @@ body {
   display: flex;
   margin: 1%;
   gap:2.5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-info a {
   white-space: nowrap;
 }
 .container {
