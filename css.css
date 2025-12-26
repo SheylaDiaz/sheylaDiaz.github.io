@@ -1,23 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+.profile-pic-wrapper { 
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    overflow: hidden; 
+    margin-top: 2%;
+} 
+
+.profile-pic { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
 body {
   background-color: #53ddfc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 90vh;
 }
 
 .card {
-  background-color: #b62bfb;
-  text-align: center;
+  background-color: #6c25ef;
   border-radius: 15px;
-  width: 90%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
-
-h1, .lastname {
-  font-size: 2.5rem;
-  color: #2eff66;
+.card1 {
+  background-color: #f01515;
+  flex: 1;
   text-align: center;
-  margin-top: 5%;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 30px;
+
+}
+h1, .lastname {
+  font-size: 2rem;
+  color: #cce8e4;
 }
 
 h2 {
@@ -26,19 +48,8 @@ h2 {
   text-decoration: underline;
 }
 .resume, .github{
-  color: #88d4f5;
-  font-size : 1.8rem;
-}
+  color: #24e007;
+  font-size : 1.8rem}
 a:hover {
-  color:red;
-}
-ul{
-  list-style-position: inside;
-}
-@media (min-width: 768px){
-    .container {
-      width: 95%;
-      padding: 15px;
-    }
-
+  color:rgb(13, 13, 19);
 }
