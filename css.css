@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+.profile-pic-wrapper { 
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    overflow: hidden; 
+    margin-top: 2%;
+} 
+
+.profile-pic { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+body {
+  background-color: #53ddfc;
+}
+
+.card {
+  background-color: #6c25ef;
+  border-radius: 15px;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.card1 {
+  background-color: #f01515;
+  flex: 1;
+  text-align: center;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 30px;
+
+}
+h1, .lastname {
+  font-size: 2rem;
+  color: #cce8e4;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fffc45;
+  text-decoration: underline;
+}
+.resume, .github{
+  color: #24e007;
+  font-size : 1.8rem}
+a:hover {
+  color:rgb(13, 13, 19);
+}
