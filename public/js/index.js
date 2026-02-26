@@ -1,36 +1,5 @@
  "use strict"
 
- const imgElement = document.getElementById('randomImage');
-    const button = document.getElementById('fetchBtn');
-
-    const UNSPLASH_ACCESS_KEY = '';
-
-    async function fetchRandomImage() {
-      try {
-        const response = await fetch(
-          'https://api.unsplash.com/photos/random',
-          {
-            headers: {
-              Authorization: `Client-ID ${UNSPLASH_ACCESS_KEY}`
-            }
-          }
-        );
-
-        if (!response.ok) throw new Error('Network response was not ok');
-
-        const data = await response.json();
-        imgElement.src = data.urls.regular; 
-        imgElement.alt = data.alt_description || 'Random Unsplash Image';
-
-      } catch (error) {
-        console.error('Error fetching image:', error);
-      }
-    }
-
-    fetchRandomImage();
-
-    button.addEventListener('click', fetchRandomImage);
- 
     const username = 'SheylaDiaz'; 
     const projectsDiv = document.getElementById('projects');
 

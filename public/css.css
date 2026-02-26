@@ -1,6 +1,6 @@
 
 .card {
-  background-color: #ee6ffc;
+  background-color: #eda7f5;
   text-align: center;
   border-radius: 15px;
   width: 90%;
@@ -10,7 +10,7 @@
 
 h1, .lastname {
   font-size: 2.5rem;
-  color: #007bff;
+  color: #000000;
   text-align: center;
   margin-top: 10px;
 }
@@ -35,7 +35,7 @@ ul{
 }
 @media (min-width: 700px){
     .card {
-  background-color: #db4d7a;
+  background-color: #f6acc3;
   text-align: center;
   border-radius: 15px;
   width: 90%;
@@ -44,7 +44,7 @@ ul{
 
 h1, .lastname {
   font-size: 2.5rem;
-  color: #007bff;
+  color: #000000;
   text-align: center;
   margin-top: 10px;
 }
@@ -53,7 +53,7 @@ h1, .lastname {
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #fffc45;
+  color: #961d82;
 }
 .resume, .github{
   color: #092cf2;
