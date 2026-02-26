@@ -1,12 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  line-height: 1;
-  background-color: #6af2f2;
-  color: #020202;
+  line-height: 1px;
   margin: 3%;
 }
 .contact-info{
-  background-color: #8dfbfb;
   display: flex;
   margin: 1%;
   gap:2.5%;
@@ -17,17 +14,17 @@ body {
   white-space: nowrap;
 }
 .container {
-  background: #f9f7f7;
+  background: #eddbe9;
 } 
 
 h1{
-color: #8d2df3;
+color: #8711fd;
 text-decoration: underline;
 margin-bottom: 2%;
 text-align: center;
 } 
 h2, h3 {
-  color: #f357cc;
+  color: #403c3f;
   font-size: 1.5rem;
   text-align: center;
   text-decoration: underline;
@@ -41,7 +38,6 @@ p{
   text-align: center;
 }
 .item1{
-  background-color: #f0c2f8;
   line-height: 1.5rem;
 }
 .education{
@@ -61,6 +57,60 @@ a:hover {
 
 
 
-@media (min-width: 768px){
-   
+@media screen and (min-width: 768px){
+  body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  margin: 3%;
+}
+.contact-info{
+  display: flex;
+  margin: 1%;
+  gap:2.5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-info a {
+  white-space: nowrap;
+}
+.container {
+  background: #eddbe9;
+} 
+
+h1{
+color: #8711fd;
+text-decoration: underline;
+margin-bottom: 2%;
+text-align: center;
+} 
+h2, h3 {
+  color: #403c3f;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  text-align: center;
+  text-align: center;
+}
+p{
+  color: #7c07f8;
+  text-decoration: underline;
+  font-size: 1rem;
+  text-align: center;
+}
+.item1{
+  line-height: 1.5rem;
+}
+.education{
+  background-color: red;
+}
+a {
+  color: #2980b9;
+  margin:.5%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
 }

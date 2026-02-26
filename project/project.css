@@ -1,0 +1,31 @@
+.card {
+  background-color: #eda7f5;
+  text-align: center;
+  border-radius: 15px;
+  width: 90%;
+  margin-left:  8vh; 
+  margin-right: 8vh;
+}
+
+a{
+    font-size: 1.5rem;
+}
+a:hover {
+  color:red;}
+
+  @media screen and (min-width: 768px){
+    .card {
+  background-color: #eda7f5;
+  text-align: center;
+  border-radius: 15px;
+  width: 90%;
+  margin-left:  8vh; 
+  margin-right: 8vh;
+}
+
+a{
+    font-size: 1.5rem;
+}
+a:hover {
+  color:red;}
+  }

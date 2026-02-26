@@ -17,10 +17,9 @@
         repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
 
         const repoHTML = repos.map(repo => `
-          <div class="repo">
+          <article class="repo">
             <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
-         
-          </div>
+          </article>
         `).join('');
 
         projectsDiv.innerHTML = repoHTML;
